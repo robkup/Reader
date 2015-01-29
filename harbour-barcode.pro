@@ -52,6 +52,7 @@ OTHER_FILES += \
     qml/js/History.js \
     qml/components/Settings1View.qml \
     qml/components/Settings2View.qml \
+    qml/components/SqLiteModel.qml \
     qml/pages/HistoryPage.qml \
     qml/js/Utils.js \
     qml/pages/ArchivePage.qml
