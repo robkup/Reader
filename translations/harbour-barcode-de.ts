@@ -57,6 +57,13 @@
     </message>
 </context>
 <context>
+    <name>Archive</name>
+    <message>
+        <source>About CodeReader</source>
+        <translation type="unfinished">Info über CodeReader</translation>
+    </message>
+</context>
+<context>
     <name>AutoScanPage</name>
     <message>
         <source>No code detected! Try again.</source>
@@ -93,6 +100,10 @@
     <message>
         <source>Scan in progress ...</source>
         <translation>Scannen läuft ...</translation>
+    </message>
+    <message>
+        <source>Archive</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>

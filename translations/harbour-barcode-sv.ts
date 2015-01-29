@@ -57,6 +57,13 @@
     </message>
 </context>
 <context>
+    <name>Archive</name>
+    <message>
+        <source>About CodeReader</source>
+        <translation type="unfinished">Om CodeReader</translation>
+    </message>
+</context>
+<context>
     <name>AutoScanPage</name>
     <message>
         <source>Scan in progress for %1 seconds!</source>
@@ -97,6 +104,10 @@
     <message>
         <source>Scan in progress ...</source>
         <translation>Skanning pågår...</translation>
+    </message>
+    <message>
+        <source>Archive</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>

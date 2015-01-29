@@ -317,6 +317,13 @@ Page {
                     pageStack.push("HistoryPage.qml");
                 }
             }
+            MenuItem {
+                text: qsTr("Archive")
+                onClicked: {
+                    pageStack.push("Archive.qml");
+                }
+
+            }
         }
 
         Column {
