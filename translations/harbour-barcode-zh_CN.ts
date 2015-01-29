@@ -226,6 +226,24 @@
     </message>
 </context>
 <context>
+    <name>SotierennachAlbum</name>
+    <message>
+        <source>Mein Name ist Sotiere nach Album</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Ueberschrift</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>SuchePage</name>
+    <message>
+        <source>Such und finde mich</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>TextPage</name>
     <message>
         <source>Decoded text</source>
