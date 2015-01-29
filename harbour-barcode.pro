@@ -54,7 +54,10 @@ OTHER_FILES += \
     qml/components/Settings2View.qml \
     qml/pages/HistoryPage.qml \
     qml/js/Utils.js \
-    qml/pages/ArchivePage.qml
+    qml/pages/ArchivePage.qml \
+    qml/pages/SuchePage.qml \
+    qml/pages/SotierennachInterpret.qml \
+    qml/pages/SotierennachAlbum.qml
 
 
 # to disable building translations every time, comment out the

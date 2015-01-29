@@ -325,7 +325,7 @@ Page {
             MenuItem {
                 text: qsTr("Archive")
                 onClicked: {
-                    pageStack.push("Archive.qml");
+                    pageStack.push("ArchivePage.qml");
                 }
 
             }
