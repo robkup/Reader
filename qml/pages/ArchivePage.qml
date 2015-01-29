@@ -1,6 +1,7 @@
 import QtQuick 2.0
 import QtQuick 2.1
 import Sailfish.Silica 1.0
+import "../components"
 
 Page {
     id: archive
@@ -12,31 +13,41 @@ Page {
 
         PullDownMenu {
 
-            MenuItem {
-                text: qsTr("Suche")
-                onClicked: {
-                    pageStack.push("Suche.qml");
-                }
-            }
-            MenuItem {
-                text: qsTr("Sotieren nach Interpret")
-                onClicked: {
-                    pageStack.push("SotierennachInterpret.qml");
-                }
-            }
-            MenuItem {
-                text: qsTr("Sotieren nach Album")
-                onClicked: {
-                    pageStack.push("SotierennachAlbum.qml");
-                }
 
+            MenuItem {
+                text: qsTr("list")
+                onClicked: {
+                    cddatabase.clearSql()
+                    cddatabase.insertSql({"artist": "tote hosen", "album":"reich und sexy", "year":1999, "code": 4321987})
+                    cddatabase.insertSql({"artist": "benjamin blümchen", "album":"Elefant", "year":1985, "code": 53874123})
+                    cddatabase.insertSql({"artist": "Bibi Blocksberg", "album":"Besen fliegen leicht gemacht", "year":2010, "code": 0815349})
+                    listView.visible = true
+                }
             }
+            MenuItem {
+                text: qsTr("clear all")
+                onClicked: {
+                     listView.visible = false
+                }
+            }
+
+        }
+
+        SqLiteModel{
+            id: cddatabase
+
+            databaseName: "cddatabase"
+            tableName: "CDtable"
+            selectStatement: ""
+            createStatement: "CREATE TABLE if not exists CDtable (artist text, album text, year int, code int); "
+
         }
 
 
         SilicaListView {
             id: listView
-            model: 20
+            model: cddatabase
+            visible: false
             anchors.fill: parent
             header: PageHeader {
                 title: "Übersicht"
@@ -47,10 +58,11 @@ Page {
 
                 Label {
                     x: Theme.paddingLarge
-                    text: "Item " + index
+                    text: artist +" - "+album +" - "+year +" - "+ code
                     anchors.verticalCenter: parent.verticalCenter
                     color: delegate.highlighted ? Theme.highlightColor : Theme.primaryColor
                 }
+
                 onClicked: console.log("Clicked " + index)
             }
             VerticalScrollDecorator {}

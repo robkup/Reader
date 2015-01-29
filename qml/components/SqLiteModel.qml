@@ -23,7 +23,14 @@ ListModel {
     property string tableName: ""
     property string primaryKeyName: "rowid"
     property string selectStatement: ""
-    property string createStatement: ""
+    property string createStatement: "" //CREATE TABLE Persons
+                                        //(
+                                        //PersonID int,
+                                        //LastName varchar(255),
+                                        //FirstName varchar(255),
+                                        //Address varchar(255),
+                                        //City varchar(255)
+                                        //);
 
     property var db: LocalStorage.openDatabaseSync(root.databaseName, root.databaseVersion);
 

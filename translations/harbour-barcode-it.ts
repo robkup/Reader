@@ -71,15 +71,11 @@
         <translation type="obsolete">Informazioni su CodeReader</translation>
     </message>
     <message>
-        <source>Suche</source>
+        <source>list</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Sotieren nach Interpret</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Sotieren nach Album</source>
+        <source>clear all</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
