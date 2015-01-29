@@ -57,9 +57,17 @@
     </message>
 </context>
 <context>
-    <name>Archive</name>
+    <name>ArchivePage</name>
     <message>
-        <source>About CodeReader</source>
+        <source>Suche</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Sotieren nach Interpret</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Sotieren nach Album</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -78,23 +86,11 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>About CodeReader</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>Scan</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Abort</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Settings</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>History</source>
         <translation type="unfinished"></translation>
     </message>
     <message>

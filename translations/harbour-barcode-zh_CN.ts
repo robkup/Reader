@@ -60,7 +60,26 @@
     <name>Archive</name>
     <message>
         <source>About CodeReader</source>
-        <translation type="unfinished">关于CodeReader</translation>
+        <translation type="obsolete">关于CodeReader</translation>
+    </message>
+</context>
+<context>
+    <name>ArchivePage</name>
+    <message>
+        <source>About CodeReader</source>
+        <translation type="obsolete">关于CodeReader</translation>
+    </message>
+    <message>
+        <source>Suche</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Sotieren nach Interpret</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Sotieren nach Album</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -79,7 +98,7 @@
     </message>
     <message>
         <source>About CodeReader</source>
-        <translation>关于CodeReader</translation>
+        <translation type="vanished">关于CodeReader</translation>
     </message>
     <message>
         <source>Scan</source>
@@ -91,11 +110,11 @@
     </message>
     <message>
         <source>Settings</source>
-        <translation>设置</translation>
+        <translation type="vanished">设置</translation>
     </message>
     <message>
         <source>History</source>
-        <translation>历史记录</translation>
+        <translation type="vanished">历史记录</translation>
     </message>
     <message>
         <source>Scan in progress ...</source>

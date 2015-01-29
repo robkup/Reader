@@ -299,24 +299,29 @@ Page {
 
         PullDownMenu {
             id: menu
-            MenuItem {
+
+            /* MenuItem {
                 text: qsTr("About CodeReader")
                 onClicked: {
                     pageStack.push("AboutPage.qml");
                 }
             }
-            MenuItem {
+            */
+
+            /* MenuItem {
                 text: qsTr("Settings")
                 onClicked: {
                     pageStack.push("SettingsPage.qml");
                 }
-            }
-            MenuItem {
+            }*/
+
+           /* MenuItem {
                 text: qsTr("History")
                 onClicked: {
                     pageStack.push("HistoryPage.qml");
                 }
-            }
+            }*/
+
             MenuItem {
                 text: qsTr("Archive")
                 onClicked: {

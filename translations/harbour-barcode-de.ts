@@ -60,7 +60,26 @@
     <name>Archive</name>
     <message>
         <source>About CodeReader</source>
-        <translation type="unfinished">Info über CodeReader</translation>
+        <translation type="obsolete">Info über CodeReader</translation>
+    </message>
+</context>
+<context>
+    <name>ArchivePage</name>
+    <message>
+        <source>About CodeReader</source>
+        <translation type="obsolete">Info über CodeReader</translation>
+    </message>
+    <message>
+        <source>Suche</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Sotieren nach Interpret</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Sotieren nach Album</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -79,7 +98,7 @@
     </message>
     <message>
         <source>About CodeReader</source>
-        <translation>Info über CodeReader</translation>
+        <translation type="vanished">Info über CodeReader</translation>
     </message>
     <message>
         <source>Scan</source>
@@ -91,11 +110,11 @@
     </message>
     <message>
         <source>Settings</source>
-        <translation>Einstellungen</translation>
+        <translation type="vanished">Einstellungen</translation>
     </message>
     <message>
         <source>History</source>
-        <translation>Verlauf</translation>
+        <translation type="vanished">Verlauf</translation>
     </message>
     <message>
         <source>Scan in progress ...</source>

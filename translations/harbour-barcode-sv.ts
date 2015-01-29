@@ -60,7 +60,26 @@
     <name>Archive</name>
     <message>
         <source>About CodeReader</source>
-        <translation type="unfinished">Om CodeReader</translation>
+        <translation type="obsolete">Om CodeReader</translation>
+    </message>
+</context>
+<context>
+    <name>ArchivePage</name>
+    <message>
+        <source>About CodeReader</source>
+        <translation type="obsolete">Om CodeReader</translation>
+    </message>
+    <message>
+        <source>Suche</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Sotieren nach Interpret</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Sotieren nach Album</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -83,7 +102,7 @@
     </message>
     <message>
         <source>About CodeReader</source>
-        <translation>Om CodeReader</translation>
+        <translation type="vanished">Om CodeReader</translation>
     </message>
     <message>
         <source>Scan</source>
@@ -95,11 +114,11 @@
     </message>
     <message>
         <source>Settings</source>
-        <translation>Inställningar</translation>
+        <translation type="vanished">Inställningar</translation>
     </message>
     <message>
         <source>History</source>
-        <translation>Historik</translation>
+        <translation type="vanished">Historik</translation>
     </message>
     <message>
         <source>Scan in progress ...</source>
